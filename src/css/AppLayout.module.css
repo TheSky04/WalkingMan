@@ -1,0 +1,4 @@
+.app {
+  display: grid;
+  grid-template-columns: 40fr 60fr;
+}

@@ -1,0 +1,56 @@
+.signUp {
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-gray),
+    var(--color-gray-light)
+  );
+  width: 100%;
+  height: 100vh;
+
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .signUp {
+    height: min-content;
+    padding: 5rem 2rem;
+    min-height: 50vh;
+    order: 1;
+  }
+}
+
+.content {
+  width: 70%;
+}
+
+.content h3 {
+  color: #fff;
+  font-size: 3.6rem;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.content button {
+  background-color: #fff;
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  font-family: inherit;
+  color: var(--color-gray);
+}
+
+.content button:hover {
+  transform: translateY(-5px);
+}

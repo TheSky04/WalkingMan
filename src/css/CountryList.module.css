@@ -1,0 +1,21 @@
+.countryList {
+  margin-bottom: auto;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: var(--color-gray-light);
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  color: #fff;
+  width: 30rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.listItem:hover {
+  background-color: #9a9da0;
+}
