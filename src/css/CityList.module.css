@@ -17,6 +17,10 @@
   transition: all 0.3s;
 }
 
+.listItem--active {
+  border: 3px solid #69db7c;
+}
+
 .listItem:hover {
   background-color: #9a9da0;
 }

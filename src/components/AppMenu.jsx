@@ -21,7 +21,7 @@ function AppMenu() {
       <footer className={styles.footer}>
         <p>&copy; Copyright 2023 Bas Inc. All rights are reserved.</p>
       </footer>
-      <BackButton color={"#fff"} />
+      <BackButton color={"#fff"} navigation="/home" />
     </div>
   );
 }

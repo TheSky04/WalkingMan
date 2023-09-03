@@ -10,41 +10,35 @@ import AppLayout from "./pages/AppLayout";
 import CountryList from "./components/CountryList";
 import CityList from "./components/CityList";
 import Form from "./components/Form";
-
 import { useEffect, useState } from "react";
+import CitiesProvider from "./contexts/CitiesProvider";
+import City from "./components/City";
 
 function App() {
-  const [cities, setCities] = useState([]);
 
-  useEffect(() => {
-    async function getCities() {
-      let res = await fetch("http://localhost:9000/cities");
-      let data = await res.json();
-      setCities(data);
-    }
-
-    getCities();
-  }, []);
 
   return (
     <div>
-      <BrowserRouter>
-        <Routes>
-          <Route element={<Navbar />}>
-            <Route path="/" element={<Home />} />
-            <Route path="home" element={<Home />} />
-            <Route path="pricing" element={<Pricing />} />
-            <Route path="product" element={<Product />} />
-            <Route path="login" element={<Login />} />
-            <Route path="*" element={<NotFound />} />
-          </Route>
-          <Route path="app" element={<AppLayout />}>
-            <Route path="countries" element={<CountryList cities={cities} />} />
-            <Route path="cities" element={<CityList cities={cities} />} />
-            <Route path="form" element={<Form/>} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <CitiesProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route element={<Navbar />}>
+              <Route path="/" element={<Home />} />
+              <Route path="home" element={<Home />} />
+              <Route path="pricing" element={<Pricing />} />
+              <Route path="product" element={<Product />} />
+              <Route path="login" element={<Login />} />
+              <Route path="*" element={<NotFound />} />
+            </Route>
+            <Route path="app" element={<AppLayout />}>
+              <Route path="countries" element={<CountryList />} />
+              <Route path="cities" element={<CityList />} />
+              <Route path="cities/:id" element={<City />} />
+              <Route path="form" element={<Form />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </CitiesProvider>
     </div>
   );
 }

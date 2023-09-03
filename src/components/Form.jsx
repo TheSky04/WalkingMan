@@ -1,6 +1,7 @@
 import styles from "../css/Form.module.css";
 import { useNavigate } from "react-router-dom";
 
+
 function Form() {
 
   const navigate = useNavigate();
@@ -18,7 +19,7 @@ function Form() {
         </div>
         <div className={styles.inputGroup}>
           <label htmlFor="html">Notes about your trip</label>
-          <textarea id="note" name="note" rows="4" cols="50"/>
+          <textarea id="note" name="note" rows="4" cols="50" />
         </div>
         <div className={styles.buttonGroup}>
           <button className={styles.add}>+Add</button>
