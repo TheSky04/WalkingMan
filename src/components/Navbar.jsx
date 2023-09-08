@@ -1,8 +1,11 @@
 import logo from "../assets/logo.png";
 import { NavLink, Outlet } from "react-router-dom";
 import styles from "../css/Navbar.module.css";
+import { useAuth } from "../contexts/FakeAuthProvider";
 
 function Navbar() {
+  const { isAuthenticated } = useAuth();
+
   return (
     <>
       <nav>
@@ -20,12 +23,16 @@ function Navbar() {
             <li>
               <NavLink to="product">Product</NavLink>
             </li>
-            <li>
-              <NavLink to="login">Login</NavLink>
-            </li>
-            <li className={styles.app}>
-              <NavLink to="app/cities">App</NavLink>
-            </li>
+            {!isAuthenticated && (
+              <li style={{ marginRight: "20px" }}>
+                <NavLink to="login">Login</NavLink>
+              </li>
+            )}
+            {isAuthenticated && (
+              <li className={styles.app}>
+                <NavLink to="app/cities">App</NavLink>
+              </li>
+            )}
           </ul>
         </div>
       </nav>

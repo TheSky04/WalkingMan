@@ -13,18 +13,6 @@
       "id": 73930385
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
       "cityName": "Berlin",
       "country": "Germany",
       "emoji": "🇩🇪",
@@ -37,16 +25,100 @@
       "id": 98443197
     },
     {
-      "cityName": "Nijar",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-04-03T07:47:59.202Z",
+      "cityName": "Istanbul",
+      "country": "Turkiye",
+      "emoji": "🇹🇷",
+      "date": "2023-09-08T17:18:00.392Z",
       "notes": "",
       "position": {
-        "lat": "36.967508314568164",
-        "lng": "-2.13128394200588"
+        "lat": "41.062058244247886",
+        "lng": "29.051513448357586"
       },
-      "id": 98443198
+      "id": 98443206
+    },
+    {
+      "cityName": "Kiuruvesi",
+      "country": "Finland",
+      "emoji": "🇫🇮",
+      "date": "2023-09-08T17:49:28.521Z",
+      "notes": "",
+      "position": {
+        "lat": "63.85535672038941",
+        "lng": "26.498101285579015"
+      },
+      "id": 98443207
+    },
+    {
+      "cityName": "Yeniseysky District",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2023-09-08T17:49:37.096Z",
+      "notes": "",
+      "position": {
+        "lat": "60.48344129791808",
+        "lng": "87.6783678508888"
+      },
+      "id": 98443208
+    },
+    {
+      "cityName": "Nuuk",
+      "country": "Greenland",
+      "emoji": "🇬🇱",
+      "date": "2023-09-08T17:49:46.528Z",
+      "notes": "",
+      "position": {
+        "lat": "68.77532740724455",
+        "lng": "-36.299898825776125"
+      },
+      "id": 98443209
+    },
+    {
+      "cityName": "Baku",
+      "country": "Azerbaijan",
+      "emoji": "🇦🇿",
+      "date": "2023-09-08T17:49:48.800Z",
+      "notes": "",
+      "position": {
+        "lat": "40.24082281791758",
+        "lng": "49.787251905183226"
+      },
+      "id": 98443210
+    },
+    {
+      "cityName": "Gori",
+      "country": "Georgia",
+      "emoji": "🇬🇪",
+      "date": "2023-09-08T17:50:59.455Z",
+      "notes": "",
+      "position": {
+        "lat": "41.94987977703871",
+        "lng": "44.04200506812724"
+      },
+      "id": 98443211
+    },
+    {
+      "cityName": "Osmangazi",
+      "country": "Turkiye",
+      "emoji": "🇹🇷",
+      "date": "2023-09-08T21:43:59.782Z",
+      "notes": "",
+      "position": {
+        "lat": "40.20366557029143",
+        "lng": "29.0419660680865"
+      },
+      "id": 98443212
+    },
+    {
+      "cityName": "Sikonge",
+      "country": "Tanzania, the United Republic of",
+      "emoji": "🇹🇿",
+      "date": "2023-09-08T22:07:34.882Z",
+      "notes": "",
+      "position": {
+        "lat": "-5.327709253606921",
+        "lng": "32.84102595530719"
+      },
+      "id": 98443214
     }
   ]
 }

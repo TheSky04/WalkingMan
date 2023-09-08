@@ -1,0 +1,55 @@
+.user {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  z-index: 1500;
+  background-color: var(--color-dark--1);
+  color: #fff;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.user span {
+  font-size: 1.5rem;
+}
+
+.user button {
+  background-color: var(--color-dark--2);
+  color: #fff;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.user button:hover {
+  opacity: 0.7;
+}
+
+.user img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+/* .user {
+  position: absolute;
+  top: 10%;
+  right: 15%;
+
+
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2rem 4rem rgba(255, 255, 255, 0.1);
+  transition: all 0.3s;
+  font-weight: 700;
+  z-index: 1000;
+  transition: all 0.3s;
+} */

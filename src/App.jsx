@@ -10,35 +10,43 @@ import AppLayout from "./pages/AppLayout";
 import CountryList from "./components/CountryList";
 import CityList from "./components/CityList";
 import Form from "./components/Form";
-import { useEffect, useState } from "react";
 import CitiesProvider from "./contexts/CitiesProvider";
 import City from "./components/City";
+import FakeAuthProvider from "./contexts/FakeAuthProvider";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
-
-
   return (
     <div>
-      <CitiesProvider>
-        <BrowserRouter>
-          <Routes>
-            <Route element={<Navbar />}>
-              <Route path="/" element={<Home />} />
-              <Route path="home" element={<Home />} />
-              <Route path="pricing" element={<Pricing />} />
-              <Route path="product" element={<Product />} />
-              <Route path="login" element={<Login />} />
-              <Route path="*" element={<NotFound />} />
-            </Route>
-            <Route path="app" element={<AppLayout />}>
-              <Route path="countries" element={<CountryList />} />
-              <Route path="cities" element={<CityList />} />
-              <Route path="cities/:id" element={<City />} />
-              <Route path="form" element={<Form />} />
-            </Route>
-          </Routes>
-        </BrowserRouter>
-      </CitiesProvider>
+      <FakeAuthProvider>
+        <CitiesProvider>
+          <BrowserRouter>
+            <Routes>
+              <Route element={<Navbar />}>
+                <Route path="/" element={<Home />} />
+                <Route path="home" element={<Home />} />
+                <Route path="pricing" element={<Pricing />} />
+                <Route path="product" element={<Product />} />
+                <Route path="login" element={<Login />} />
+                <Route path="*" element={<NotFound />} />
+              </Route>
+              <Route
+                path="app"
+                element={
+                  <ProtectedRoute>
+                    <AppLayout />
+                  </ProtectedRoute>
+                }
+              >
+                <Route path="countries" element={<CountryList />} />
+                <Route path="cities" element={<CityList />} />
+                <Route path="cities/:id" element={<City />} />
+                <Route path="form" element={<Form />} />
+              </Route>
+            </Routes>
+          </BrowserRouter>
+        </CitiesProvider>
+      </FakeAuthProvider>
     </div>
   );
 }

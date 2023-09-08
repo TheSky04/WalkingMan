@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+@import "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
 
 :root {
   --color-gray: #212529;
@@ -8,6 +9,8 @@
   --color-dark--0: #242a2e;
   --color-dark--1: #2d3439;
   --color-dark--2: #42484d;
+
+  --color-brand--2: #51cf66;
 }
 
 *,
@@ -24,7 +27,7 @@ html {
 }
 
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 button {
@@ -46,4 +49,8 @@ a {
 
 p {
   line-height: 1.6;
+}
+
+.react-datepicker__input-container input {
+  width: 100%;
 }

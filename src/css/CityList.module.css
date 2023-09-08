@@ -1,5 +1,22 @@
 .cityList {
   margin-bottom: auto;
+  overflow-y: scroll;
+  height: 50vh;
+  padding: 0 2rem;
+}
+.cityList::-webkit-scrollbar {
+  width: 10px;
+}
+
+.cityList::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: #e7e7e7;
+  border: 1px solid #cacaca;
+}
+
+.cityList::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: var(--color-gray-light);
 }
 
 .listItem {

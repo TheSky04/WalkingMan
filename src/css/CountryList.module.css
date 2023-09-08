@@ -1,5 +1,23 @@
 .countryList {
   margin-bottom: auto;
+  height: 40rem;
+  padding: 0 2rem;
+  overflow-y: scroll;
+}
+
+.countryList::-webkit-scrollbar {
+  width: 10px;
+}
+
+.countryList::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: #e7e7e7;
+  border: 1px solid #cacaca;
+}
+
+.countryList::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: var(--color-gray-light);
 }
 
 .listItem {
