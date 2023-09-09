@@ -1,11 +1,9 @@
 import { useCities } from "../contexts/CitiesProvider";
 import styles from "../css/CityList.module.css";
 import { Link } from "react-router-dom";
-import { useSearchParams } from "react-router-dom";
 import Spinner from "./Spinner";
 
 function CityList() {
-  const [searchParams, setSearchParams] = useSearchParams();
   const { cities, transformImage, currentCity, deleteCity, isLoading } =
     useCities();
 

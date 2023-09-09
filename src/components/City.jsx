@@ -1,6 +1,6 @@
-import React, { useContext, useEffect } from "react";
+import { useEffect } from "react";
 import styles from "../css/City.module.css";
-import { useParams, useSearchParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useCities } from "../contexts/CitiesProvider";
 import Spinner from "./Spinner";
 
@@ -9,8 +9,7 @@ function City() {
 
   const { id } = useParams();
 
-  const { getCurrentCity, currentCity, isLoading, transformImage } =
-    useCities();
+  const { getCurrentCity, currentCity, isLoading } = useCities();
 
   useEffect(() => {
     getCurrentCity(id);
@@ -24,7 +23,6 @@ function City() {
     <div className={styles.cityDetail}>
       <div className={styles.detailGroup}>
         <h4> City Name</h4>
-        {/* <p> {transformImage(currentCity.emoji)} {currentCity.cityName}</p> */}
         <p> {currentCity.cityName}</p>
       </div>
       <div className={styles.detailGroup}>
