@@ -13,42 +13,6 @@
       "id": 73930385
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
-    },
-    {
-      "cityName": "Istanbul",
-      "country": "Turkiye",
-      "emoji": "🇹🇷",
-      "date": "2023-09-08T17:18:00.392Z",
-      "notes": "",
-      "position": {
-        "lat": "41.062058244247886",
-        "lng": "29.051513448357586"
-      },
-      "id": 98443206
-    },
-    {
-      "cityName": "Kiuruvesi",
-      "country": "Finland",
-      "emoji": "🇫🇮",
-      "date": "2023-09-08T17:49:28.521Z",
-      "notes": "",
-      "position": {
-        "lat": "63.85535672038941",
-        "lng": "26.498101285579015"
-      },
-      "id": 98443207
-    },
-    {
       "cityName": "Yeniseysky District",
       "country": "Russian Federation (the)",
       "emoji": "🇷🇺",
@@ -119,6 +83,150 @@
         "lng": "32.84102595530719"
       },
       "id": 98443214
+    },
+    {
+      "cityName": "Weifen",
+      "country": "China",
+      "emoji": "🇨🇳",
+      "date": "2023-09-09T08:10:17.646Z",
+      "notes": "",
+      "position": {
+        "lat": "38.71715352464241",
+        "lng": "110.9399125599896"
+      },
+      "id": 98443215
+    },
+    {
+      "cityName": "Formoso do Araguaia",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2023-09-09T08:10:28.919Z",
+      "notes": "",
+      "position": {
+        "lat": "-12.002711813993303",
+        "lng": "-50.09280071845949"
+      },
+      "id": 98443218
+    },
+    {
+      "cityName": "Kalo Chorio",
+      "country": "Cyprus",
+      "emoji": "🇨🇾",
+      "date": "2023-09-09T08:12:33.458Z",
+      "notes": "",
+      "position": {
+        "lat": "34.84275857049967",
+        "lng": "33.07973694857013"
+      },
+      "id": 98443219
+    },
+    {
+      "cityName": "Suator",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2023-09-09T08:12:38.137Z",
+      "notes": "",
+      "position": {
+        "lat": "-5.362243798779985",
+        "lng": "139.16654825418004"
+      },
+      "id": 98443220
+    },
+    {
+      "cityName": "Penukal",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2023-09-09T08:12:40.607Z",
+      "notes": "",
+      "position": {
+        "lat": "-3.214358413018889",
+        "lng": "104.00861562793058"
+      },
+      "id": 98443221
+    },
+    {
+      "cityName": "Kecamatan Kapuas",
+      "country": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2023-09-09T08:12:45.159Z",
+      "notes": "",
+      "position": {
+        "lat": "-0.13892389145591144",
+        "lng": "110.56045318395275"
+      },
+      "id": 98443222
+    },
+    {
+      "cityName": "Huyen Chu Pah",
+      "country": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2023-09-09T08:12:46.807Z",
+      "notes": "",
+      "position": {
+        "lat": "14.178430441064346",
+        "lng": "107.83181967195189"
+      },
+      "id": 98443223
+    },
+    {
+      "cityName": "Bayramic",
+      "country": "Turkiye",
+      "emoji": "🇹🇷",
+      "date": "2023-09-10T07:57:46.955Z",
+      "notes": "",
+      "position": {
+        "lat": "40.009331946732665",
+        "lng": "26.759309407923812"
+      },
+      "id": 98443224
+    },
+    {
+      "cityName": "Perdasdefogu",
+      "country": "Italy",
+      "emoji": "🇮🇹",
+      "date": "2023-09-10T07:58:13.802Z",
+      "notes": "",
+      "position": {
+        "lat": "39.69163165819173",
+        "lng": "9.470936215628633"
+      },
+      "id": 98443225
+    },
+    {
+      "cityName": "Manyas",
+      "country": "Turkiye",
+      "emoji": "🇹🇷",
+      "date": "2023-09-10T07:58:41.066Z",
+      "notes": "",
+      "position": {
+        "lat": "39.99527080014614",
+        "lng": "28.05417872119918"
+      },
+      "id": 98443226
+    },
+    {
+      "cityName": "Yozgat",
+      "country": "Turkiye",
+      "emoji": "🇹🇷",
+      "date": "2023-09-10T07:59:23.550Z",
+      "notes": "",
+      "position": {
+        "lat": "39.710789716609895",
+        "lng": "35.01202475099522"
+      },
+      "id": 98443227
+    },
+    {
+      "cityName": "Manyas",
+      "country": "Turkiye",
+      "emoji": "🇹🇷",
+      "date": "2023-09-10T08:08:10.213Z",
+      "notes": "",
+      "position": {
+        "lat": "40.04714417086729",
+        "lng": "27.867073912780487"
+      },
+      "id": 98443228
     }
   ]
 }
